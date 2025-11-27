@@ -57,10 +57,6 @@ video {
 	list-style: none;
 }
 
-
-
-
-
 /* Footer */
 
 footer {
@@ -80,9 +76,22 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
+}
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+.sidebar {
+	padding: 0 16px;
+	position: absolute;
+	right: 0;
+	top: 40%;
+}
+
+.sidebar div {
+	width: 60px;
+	height: 60px;
+	border: 2px darkgoldenrod dashed;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 60px;
 }
 
 /* ---------------------
