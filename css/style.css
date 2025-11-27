@@ -70,6 +70,18 @@ footer {
 	le tue regole, se necessario. */
 }
 
+footer nav {
+	display: flex;
+}
+
+footer nav div {
+	text-align: center;
+	flex-basis: 20%;
+	height: 100px;
+	line-height: 100px;
+	background-color: rgb(0, 0, 0);
+}
+
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
