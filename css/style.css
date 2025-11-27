@@ -7,6 +7,7 @@
 body {
 	margin: 0 auto;
 	font-family: 'TikTok Sans', sans-serif;
+	color: white;
 }
 
 video {
@@ -35,6 +36,30 @@ video {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
+
+/* Nav bar superiore */ 
+
+.nav-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	padding: 15px;
+}
+
+.nav-item {
+	background-color: rgb(255, 0, 0);
+}
+
+.nav-item ul {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+}
+
+
+
+
 
 /* Footer */
 
@@ -76,7 +101,6 @@ da rimuovere una volta concluso
 }
 
 .debug .reel-header {
-	min-height: 50px;
 	border: 2px dashed #fff;
 }
 
