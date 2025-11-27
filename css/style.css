@@ -95,12 +95,17 @@ footer nav {
 footer nav div {
 	flex-basis: 20%;
 	text-align: center;
-	line-height: 65px;
 	background-color: rgb(0, 0, 0);
+	padding: 10px;
 }
 
 footer span {
+	display: block;
 	font-size: 30px;
+}
+
+footer span:last-child {
+	font-size: 10px;
 }
 
 /* Sidebar */
@@ -122,20 +127,29 @@ footer span {
 	width: 60px;
 	height: 60px;
 	border: 2px darkgoldenrod dashed;
+	padding: 5px;
 	margin: 10px auto;
 	text-align: center;
-	line-height: 60px;
+}
+
+.sidebar div span {
+    display: block;
+	font-size: 25px;
 }
 
 /* Sidebar Icons */
 .sidebar img {
 	display: block;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 .sidebar span {
 	font-size: 20px;
+}
+
+.sidebar span:last-child {
+	font-size: 10px;
 }
 
 
@@ -159,3 +173,5 @@ da rimuovere una volta concluso
 }
 
 /* --------------------- */
+
+
