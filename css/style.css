@@ -47,6 +47,8 @@ video {
 
 .nav-item {
 	line-height: 50px;
+	font-size: 20px;
+	font-weight: 500;
 }
 
 .nav-item ul {
@@ -65,16 +67,16 @@ video {
 	opacity: 1;
 }
 
-li span {
-	position: absolute;
-	width: 4px;
-	height: 1px;
-	background-color: white;
-}
-
-.nav-item {
-	font-size: 20px;
-	font-weight: 500;
+.nav-item li:nth-of-type(2)::after {
+	content: "";
+	position: relative;
+	display: block;
+	width: 8px;
+	height: 8px;
+	background-color: red;
+	border-radius: 50%;
+	top: -70%;
+	right: -105%;
 }
 
 /* Footer */
@@ -120,10 +122,9 @@ footer span {
 	font-size: 30px;
 }
 
-footer span:last-child {
+footer nav span:last-child {
 	font-size: 10px;
 }
-
 
 nav div:nth-child(4) {
 	position: relative;
@@ -135,14 +136,32 @@ nav div:nth-child(4) {
 	bottom: 50%;
 	left: 50%;
 	translate:0 -50%;
-	width: 25px;
-	height: 15px;
+	width: 30px;
+	height: 20px;
 	background-color: rgb(201, 24, 24);
 	border-radius: 35%;
-    line-height: 15px;
+    line-height: 20px;
 	text-align: center;
 	font-size: 13px;
 	font-weight: 600;
+}
+
+.new-post-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div a {
+	width: 45px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 22px;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 4px 0px 0 rgb(255 0 255), -4px 0px 0 rgb(0 255 255);
 }
 
 /* Sidebar */
@@ -163,12 +182,14 @@ nav div:nth-child(4) {
 .sidebar div {
 	width: 60px;
 	height: 60px;
-	border: 2px darkgoldenrod dashed;
 	padding: 5px;
-	margin: 10px auto;
+	margin: 20px auto;
 	text-align: center;
 }
 
+.sidebar div:first-of-type {
+	translate: 0 -20px
+}
 .sidebar div span {
     display: block;
 	font-size: 25px;
@@ -181,7 +202,7 @@ nav div:nth-child(4) {
 div div>img+span:first-of-type.logo-decoration{
 	position: absolute;
 	display: block;
-	bottom: -50%;
+	bottom: -40%;
 	right: 50%;
 	translate: +50% -50%;
 	width: 25px;
