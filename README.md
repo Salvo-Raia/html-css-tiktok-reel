@@ -9,7 +9,7 @@ Proviamo a replicare la schermata di un reel di TikTok, inserendo i diversi elem
 **Note**
 
 * Il macro layout è già pronto, per cui dovrete concentrarvi “solo” sulla disposizione degli elementi delle 3 aree citate sopra.
-* I bordi e le altezze dei box sono evidenziati tramite la classe .debug che andrà poi rimossa.
+* I bordi e le altezze dei box sono evidenziati tramite la classe `.debug` che andrà poi rimossa.
 * Le icone utilizzate vengono da Bootstrap Icons
 * Il font utilizzato è TikTok Sans, disponibile su Google Fonts.
 
